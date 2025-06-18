@@ -1,3 +1,8 @@
+# We can't ignore only files in the project root directly, 
+# but we can ignore both files and dirs, and then un-ignore dirs.
+/* 
+!/*/
+.idea
 *.stl
 *.FCStd1
 

@@ -24,7 +24,7 @@ shopt -s extglob
 #set -x
 
 mkdir "${1:?}" || exit
-mv -t "${1:?}" *"${1:?}"*.@(3mf|dxf|fcstd|fcstd1|fpp|gcode|skp|stl|stp)
+mv -t "${1:?}" *"${1:?}"*.@(3mf|dxf|fcstd|fcstd1|fpp|gcode|skp|stl|stp|png)
 
 #set +x
 
